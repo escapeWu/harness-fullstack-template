@@ -1,0 +1,42 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.cursor/
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+.pytest_cache/
+
+# Node.js
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# Environment
+.env
+.env.production
+backend/.env
+
+# Data (runtime-generated)
+data/
+
+# Logs
+*.log
+data/logs/
+
+# SQLite
+*.db
+*.db-wal
+*.db-shm
