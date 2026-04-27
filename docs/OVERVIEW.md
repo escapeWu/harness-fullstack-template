@@ -39,6 +39,9 @@ harness-fullstack-template/
 │   ├── OVERVIEW.md
 │   ├── reference/
 │   └── feature/
+├── .claude/skills/
+│   ├── project-docs-workflow/
+│   └── project-analysis/
 ├── src/api/
 ├── tests/
 ├── frontend/

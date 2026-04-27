@@ -27,6 +27,11 @@
 
 文档入口是 `docs/OVERVIEW.md`。技术参考放 `docs/reference/`，功能模块放 `docs/feature/`。修改接口时同步更新 `docs/reference/interfaces.md`。
 
+## 项目内置 skills
+
+- `.claude/skills/project-docs-workflow`：非 trivial 的功能开发、bug 修复、重构、API 变更前后，先用它扫描 docs 并判断文档影响。
+- `.claude/skills/project-analysis`：当现有 docs 不足、链路复杂，或需要架构 / 数据流 / 时序 / 性能风险分析时使用；分析结果应沉淀到 `docs/`。
+
 ## 测试规则
 
 - 后端新增或修改功能必须更新 `tests/`。
